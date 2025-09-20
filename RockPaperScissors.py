@@ -16,8 +16,6 @@ def computer_choice():
     # Remove Fore.CYAN from the list, only use it for printing
     return random.choice(['rock', 'paper', 'scissors'])
 
-# ...existing code...
-
 # Winner winner chicken dinner
 def determine_winner(user, computer):
     if user == computer:
